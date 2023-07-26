@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    padding: 20px 100px;
+}
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.errors {
+    color: indianred;
+}
+form > .label {
+    width: 100px;
+}
+.delete {
+    color: tomato;
+    text-decoration: none;
+    border: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.goBack, .expenseH1 {
+    text-decoration: none;
+    color: cornflowerblue;
+}
